@@ -7,9 +7,10 @@ btnConvertir.addEventListener("click", (evento) => {
     //TODO: CREAR FUNCION DE VALIDACION
 
     let resultado = convertirABinario(binario);
-    
+
 });
 
 function convertirABinario(binario){
-    alert(binario);
+    let cadenaNumeros = binario.split("");
+
 }
