@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>Bin2Dec</title>
 </head>
 <body>
     <div class="container">
         <section class="conversor">
-            <div class="titulo">Ingrese el numero binario</div>
+            <div class="titulo">Conversor Binario-Decimal</div>
             <div class="input">
-                <input type="text" name="num-binario" id="num-binario">
+                <input type="text" maxlength="8" class="input-text" name="num-binario" id="num-binario" autofocus placeholder="Ingrese numero binario"
+                onkeypress="return (event.charCode >= 48 && event.charCode <= 49)">
+                
             </div>
             <div class="btn">
                 <button id="btn-convertir">CONVERTIR</button>
