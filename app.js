@@ -48,6 +48,3 @@ function mostrarMensajeError(){
     input.value = '';
     input.focus();
 }
-
-
-
