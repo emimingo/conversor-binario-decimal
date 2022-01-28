@@ -50,3 +50,8 @@ body{
     color: grey;
 }
 
+.error{
+    font-size: 17px;
+    color:red;
+}
+
